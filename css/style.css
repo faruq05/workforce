@@ -17,6 +17,8 @@ a {
     padding: 0;
 }
 
+
+
 /* global ================ */
 h1 {
     font-size: 60px;
@@ -118,7 +120,6 @@ a {
 }
 
 .navbar-expand-lg .navbar-nav {
-    flex-direction: row;
     align-items: center;
 }
 
@@ -618,7 +619,7 @@ a {
     margin: auto;
 }
 
-.faq_ques{
+.faq_ques {
     width: 80%;
     margin: auto;
     margin-top: 20px;
@@ -645,15 +646,16 @@ a {
     outline: 0;
     box-shadow: none;
 }
+
 /* faq ends  */
 
-.footer{
+.footer {
     text-align: center;
     background-color: var(--cs-primary);
     padding: 10px 0px;
 }
 
-.footer p{
+.footer p {
     color: #fff;
     margin: 0;
 }
