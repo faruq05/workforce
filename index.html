@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/media.css">
     <title>Workforce Hiring</title>
 </head>
 
@@ -98,7 +98,7 @@
     <!-- hero ends ========================================= -->
 
     <!-- about section====================================== -->
-    <div class="about c-60" id="about">
+    <div class="about mobdevice c-60" id="about">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -187,7 +187,7 @@
     <!-- about section ends====================================== -->
 
     <!-- Industries section starts=============================== -->
-    <div class="industries c-60" id="industries">
+    <div class="industries mobdevice c-60" id="industries">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -274,7 +274,7 @@
     <!-- industries section ends -->
 
     <!-- how starts -->
-    <div class="how c-60" id="how">
+    <div class="how mobdevice c-60" id="how">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -322,7 +322,7 @@
     <!-- how ends -->
 
     <!-- why starts -->
-    <div class="how why c-60" id="why">
+    <div class="how why mobdevice c-60" id="why">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -367,7 +367,7 @@
     <!-- why ends -->
 
     <!-- impact starts -->
-    <div class="impact c-60" id="impact">
+    <div class="impact mobdevice c-60" id="impact">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12 impact_title text-center">
@@ -411,7 +411,7 @@
     <!-- impact ends -->
 
     <!-- software starts -->
-    <div class="software c-60" id="software">
+    <div class="software mobdevice c-60" id="software">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -434,7 +434,7 @@
                         your recruiting experience as seamless as possible.</p>
                 </div>
                 <div class="col-md-8 track">
-                    <div class="col-md-4">
+                    <div class="col-md-4 recruit">
                         <div class="about_card track_card">
                             <div class="abcard_icon">
                                 <i class="fa-brands fa-sourcetree"></i>
@@ -448,7 +448,7 @@
                                 applicant flow</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 recruit">
                         <div class="about_card track_card">
                             <div class="abcard_icon">
                                 <i class="fa-solid fa-users-rays"></i>
@@ -461,7 +461,7 @@
                                 candidates</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 recruit">
                         <div class="about_card track_card">
                             <div class="abcard_icon">
                                 <i class="fa-solid fa-money-bill-wave"></i>
@@ -484,7 +484,7 @@
             </div>
         </div>
     </div>
-    <div class="supercharge single_sec c-60">
+    <div class="supercharge single_sec mobdevice c-60">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -523,7 +523,7 @@
             </div>
         </div>
     </div>
-    <div class="feature single_sec c-60">
+    <div class="feature single_sec mobdevice c-60">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -705,7 +705,7 @@
             </div>
         </div>
     </div>
-    <div class="efficient single_sec c-60">
+    <div class="efficient single_sec mobdevice c-60">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -774,7 +774,7 @@
     <!-- software ends -->
 
     <!-- faq starts -->
-    <div class="faq c-60" id="faq">
+    <div class="faq mobdevice c-60" id="faq">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -863,8 +863,14 @@
                     <div class="quote">
                         <h3>Looking to hire quality candidates for your business?</h3>
                         <div class="quote_button">
-                            <a href="#" class="btn btn-demo">Request A Demo</a>
-                            <a href="#" class="btn btn-demo">14-days free trial</a>
+                            <div class="demo_btn">
+                                <a href="#" class="btn btn-demo">Request A Demo</a>
+                            </div>
+                            <div class="trial_btn">
+                                <a href="#" class="btn btn-demo">14-days free trial</a>
+                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -908,20 +914,20 @@
                     smartSpeed: 500,
                     nav: true,
                     slideBy: 3,
-                    // responsive: {
-                    //     0: {
-                    //         items: 1,
-                    //     },
-                    //     425: {
-                    //         items: 1,
-                    //     },
-                    //     767: {
-                    //         items: 2,
-                    //     },
-                    //     1199: {
-                    //         items: 3,
-                    //     }
-                    // }
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        425: {
+                            items: 1,
+                        },
+                        767: {
+                            items: 2,
+                        },
+                        1199: {
+                            items: 3,
+                        }
+                    }
                 }
             );
         });
@@ -935,20 +941,20 @@
                     smartSpeed: 500,
                     nav: true,
                     slideBy: 3,
-                    // responsive: {
-                    //     0: {
-                    //         items: 1,
-                    //     },
-                    //     425: {
-                    //         items: 1,
-                    //     },
-                    //     767: {
-                    //         items: 2,
-                    //     },
-                    //     1199: {
-                    //         items: 3,
-                    //     }
-                    // }
+                    responsive: {
+                        0: {
+                            items: 3,
+                        },
+                        425: {
+                            items: 1,
+                        },
+                        767: {
+                            items: 2,
+                        },
+                        1199: {
+                            items: 3,
+                        }
+                    }
                 }
             );
         });
